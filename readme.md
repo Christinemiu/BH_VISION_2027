@@ -351,8 +351,8 @@ DPS = 单位时间射击窗口占比 \times 射频 \times 单发子弹伤害
 
 <a href="https://www.star-history.com/?repos=TongjiSuperPower%2Fsp_vision_25&type=date&legend=top-left">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&theme=dark&legend=top-left&sealed_token=jYfs34W1ly53O8lr8MPceajIt26W2HAh0-Zh764M7QUQEn6u_GG2rjShQENOmzt6Huodu-78OBXxE3jDxsxiJY05tC-bEAZdAvrUzgwczrKwyEbRs3cj8tmGhXw1HcY5h60P8LQ8dFuErb2kunpXE7KU4UGGAUrkdBwhUOl_Fv606LOIfCT_T66tnX0L" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&legend=top-left&sealed_token=jYfs34W1ly53O8lr8MPceajIt26W2HAh0-Zh764M7QUQEn6u_GG2rjShQENOmzt6Huodu-78OBXxE3jDxsxiJY05tC-bEAZdAvrUzgwczrKwyEbRs3cj8tmGhXw1HcY5h60P8LQ8dFuErb2kunpXE7KU4UGGAUrkdBwhUOl_Fv606LOIfCT_T66tnX0L" />
-   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&legend=top-left&sealed_token=jYfs34W1ly53O8lr8MPceajIt26W2HAh0-Zh764M7QUQEn6u_GG2rjShQENOmzt6Huodu-78OBXxE3jDxsxiJY05tC-bEAZdAvrUzgwczrKwyEbRs3cj8tmGhXw1HcY5h60P8LQ8dFuErb2kunpXE7KU4UGGAUrkdBwhUOl_Fv606LOIfCT_T66tnX0L" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&theme=dark&legend=top-left&sealed_token=0zH4Ri15aMWHby4MNCNPr4EfslsUCJE6eP87KBuukXW4NwZwkquyzPNYg2C6w9cwGArM9IazaQCerPBGsPTuzTxgeBBO4Flj7sYnHbjVQ7ePaO4vwv2SR6BWu3mVbfwWtIuq0KxRO4DXN00p9_0LPU3qw-M6eYlDckmARLc4SfCaOhB3q3CcFHF19d-V" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&legend=top-left&sealed_token=0zH4Ri15aMWHby4MNCNPr4EfslsUCJE6eP87KBuukXW4NwZwkquyzPNYg2C6w9cwGArM9IazaQCerPBGsPTuzTxgeBBO4Flj7sYnHbjVQ7ePaO4vwv2SR6BWu3mVbfwWtIuq0KxRO4DXN00p9_0LPU3qw-M6eYlDckmARLc4SfCaOhB3q3CcFHF19d-V" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=TongjiSuperPower/sp_vision_25&type=date&legend=top-left&sealed_token=0zH4Ri15aMWHby4MNCNPr4EfslsUCJE6eP87KBuukXW4NwZwkquyzPNYg2C6w9cwGArM9IazaQCerPBGsPTuzTxgeBBO4Flj7sYnHbjVQ7ePaO4vwv2SR6BWu3mVbfwWtIuq0KxRO4DXN00p9_0LPU3qw-M6eYlDckmARLc4SfCaOhB3q3CcFHF19d-V" />
  </picture>
 </a>
