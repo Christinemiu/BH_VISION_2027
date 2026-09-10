@@ -11,10 +11,8 @@
 • SocketCAN 或项目支持的串口通信
 本项目依赖 Linux SocketCAN 和工业相机 SDK，不支持直接在 Windows 原生环境运行。
 
-3. 安装基础依赖
-Bash
-启用自动换行
-复制
+2. 安装基础依赖
+
 sudo apt update
 
 sudo apt install -y \
@@ -30,44 +28,35 @@ sudo apt install -y \
   libusb-1.0-0-dev \
   nlohmann-json3-dev \
   libceres-dev
+  
 此外还需要安装：
 • OpenVINO Runtime
 • HikRobot MVS SDK 或 MindVision SDK
 • ROS 2 Humble，仅哨兵导航通信功能需要
+
 3. fmt 与 spdlog 依赖约束
+   
 建议 fmt 和 spdlog 都使用 Ubuntu 系统包：
-纯文本
-启用自动换行
-复制
 /usr/lib/.../cmake/fmt
 /usr/lib/.../cmake/spdlog
+
 不要混用：
-纯文本
-启用自动换行
-复制
 Miniforge/Conda 的 fmt
 /usr/local 的 spdlog
+
 如果当前处于 Conda 环境，编译前退出：
-Bash
-启用自动换行
-复制
 conda deactivate
+
 检查工具来源：
-Bash
-启用自动换行
-复制
 which cmake
 which c++
+
 推荐结果：
-纯文本
-启用自动换行
-复制
 /usr/bin/cmake
 /usr/bin/c++
+
 项目中统一使用 CMake target：
 cmake
-启用自动换行
-复制
 find_package(fmt CONFIG REQUIRED)
 find_package(spdlog CONFIG REQUIRED)
 
@@ -77,18 +66,14 @@ target_link_libraries(tools
     spdlog::spdlog
 )
 不要同时使用仓库内置版本和系统版本。
+
 4. 配置构建目录
 在项目根目录执行：
-Bash
-启用自动换行
-复制
 cmake -S . -B build-system \
   -DCMAKE_BUILD_TYPE=Release
 如果 CMake 错误地找到 Conda 或 /usr/local 中的依赖，可以明确指定系统包。
+
 首先获取系统架构目录：
-Bash
-启用自动换行
-复制
 dpkg-architecture -qDEB_HOST_MULTIARCH
 x86_64 Ubuntu 通常返回：
 纯文本
@@ -109,7 +94,7 @@ aarch64 设备需要将 x86_64-linux-gnu 替换为实际输出，例如：
 启用自动换行
 复制
 aarch64-linux-gnu
-5. 检查依赖来源
+6. 检查依赖来源
 配置完成后检查：
 Bash
 启用自动换行
@@ -128,7 +113,7 @@ spdlog_DIR:PATH=/usr/lib/x86_64-linux-gnu/cmake/spdlog
 复制
 /home/.../miniforge3
 /usr/local/lib/cmake
-6. 编译全部程序
+7. 编译全部程序
 Bash
 启用自动换行
 复制
@@ -152,7 +137,7 @@ Bash
 启用自动换行
 复制
 cmake --build build-system --target help
-7. 离线自瞄测试
+8. 离线自瞄测试
 必须在项目根目录运行，因为配置文件和模型使用相对路径：
 Bash
 启用自动换行
